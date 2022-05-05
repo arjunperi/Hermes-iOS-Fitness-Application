@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B8B455B457EA855EFF3007 /* Pods_hermesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C8E9378F41770AE53FDBE3 /* Pods_hermesTests.framework */; };
+		434FE56C272902E600C747B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FE56B272902E600C747B9 /* AppDelegate.swift */; };
+		434FE56E272902E600C747B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FE56D272902E600C747B9 /* SceneDelegate.swift */; };
+		434FE573272902E600C747B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434FE571272902E600C747B9 /* Main.storyboard */; };
+		434FE575272902E800C747B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434FE574272902E800C747B9 /* Assets.xcassets */; };
+		434FE578272902E800C747B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434FE576272902E800C747B9 /* LaunchScreen.storyboard */; };
+		434FE583272902E800C747B9 /* hermesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FE582272902E800C747B9 /* hermesTests.swift */; };
+		434FE58D272902E800C747B9 /* hermesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FE58C272902E800C747B9 /* hermesUITests.swift */; };
+		434FE58F272902E800C747B9 /* hermesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FE58E272902E800C747B9 /* hermesUITestsLaunchTests.swift */; };
+		438C22F42747487B0000086A /* logoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438C22F32747487B0000086A /* logoutViewController.swift */; };
+		43A970C3274B10380058451A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A970C2274B10380058451A /* HealthKit.framework */; };
+		43A970C7274B3B3B0058451A /* hermes-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A970C6274B3B3B0058451A /* hermes-removebg-preview.png */; };
+		43B19F932745D82300B90402 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B19F922745D82300B90402 /* GoogleService-Info.plist */; };
+		43B19F952745DB3700B90402 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B19F942745DB3700B90402 /* loginViewController.swift */; };
+		43B19F972745F1BF00B90402 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B19F962745F1BF00B90402 /* signUpViewController.swift */; };
+		43BB7E9227290AAA005D7AE5 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7E9127290AAA005D7AE5 /* mapViewController.swift */; };
+		43C70001273CAD7700C47718 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C70000273CAD7700C47718 /* detailsViewController.swift */; };
+		43C700052745BCDF00C47718 /* mainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C700042745BCDF00C47718 /* mainTabBarController.swift */; };
+		43C7FFFF273CAD5800C47718 /* locationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7FFFE273CAD5800C47718 /* locationTableViewController.swift */; };
+		43FACD052745C3FF00A4BA04 /* savedLocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FACD042745C3FF00A4BA04 /* savedLocationsTableViewController.swift */; };
+		9144154D817BB6F97EB5DAB3 /* Pods_hermes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E64DC778CE35252E6D7EB7 /* Pods_hermes.framework */; };
+		E4E29B7F74D706E165009558 /* Pods_hermes_hermesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0235B9C45D76388C99A36BB /* Pods_hermes_hermesUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434FE57F272902E800C747B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434FE560272902E600C747B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434FE567272902E600C747B9;
+			remoteInfo = hermes;
+		};
+		434FE589272902E800C747B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434FE560272902E600C747B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434FE567272902E600C747B9;
+			remoteInfo = hermes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BCC5D93BEEAC85CC64E30EF /* Pods-hermes-hermesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hermes-hermesUITests.release.xcconfig"; path = "Target Support Files/Pods-hermes-hermesUITests/Pods-hermes-hermesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24628AB70ACFB56EDFA5DF65 /* Pods-hermesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hermesTests.debug.xcconfig"; path = "Target Support Files/Pods-hermesTests/Pods-hermesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA28C2095EFB1BCDB4E1F73 /* Pods-hermes-hermesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hermes-hermesUITests.debug.xcconfig"; path = "Target Support Files/Pods-hermes-hermesUITests/Pods-hermes-hermesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		434FE568272902E600C747B9 /* hermes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hermes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FE56B272902E600C747B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		434FE56D272902E600C747B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		434FE572272902E600C747B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		434FE574272902E800C747B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		434FE577272902E800C747B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		434FE579272902E800C747B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FE57E272902E800C747B9 /* hermesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hermesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FE582272902E800C747B9 /* hermesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hermesTests.swift; sourceTree = "<group>"; };
+		434FE588272902E800C747B9 /* hermesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hermesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FE58C272902E800C747B9 /* hermesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hermesUITests.swift; sourceTree = "<group>"; };
+		434FE58E272902E800C747B9 /* hermesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hermesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		438C22F32747487B0000086A /* logoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoutViewController.swift; sourceTree = "<group>"; };
+		43A970C1274B10380058451A /* hermes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hermes.entitlements; sourceTree = "<group>"; };
+		43A970C2274B10380058451A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		43A970C6274B3B3B0058451A /* hermes-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hermes-removebg-preview.png"; path = "../../../../../Downloads/hermes-removebg-preview.png"; sourceTree = "<group>"; };
+		43B19F922745D82300B90402 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43B19F942745DB3700B90402 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		43B19F962745F1BF00B90402 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		43BB7E9127290AAA005D7AE5 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		43C70000273CAD7700C47718 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		43C700042745BCDF00C47718 /* mainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTabBarController.swift; sourceTree = "<group>"; };
+		43C7FFFE273CAD5800C47718 /* locationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationTableViewController.swift; sourceTree = "<group>"; };
+		43FACD042745C3FF00A4BA04 /* savedLocationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savedLocationsTableViewController.swift; sourceTree = "<group>"; };
+		5E9501A09BE3A6CF9017D0A3 /* Pods-hermes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hermes.release.xcconfig"; path = "Target Support Files/Pods-hermes/Pods-hermes.release.xcconfig"; sourceTree = "<group>"; };
+		65C8E9378F41770AE53FDBE3 /* Pods_hermesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hermesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED54E1FE7A6241CB32D247C /* Pods-hermesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hermesTests.release.xcconfig"; path = "Target Support Files/Pods-hermesTests/Pods-hermesTests.release.xcconfig"; sourceTree = "<group>"; };
+		73E64DC778CE35252E6D7EB7 /* Pods_hermes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hermes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B8F828134BA6D7FDECDE9C /* Pods-hermes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hermes.debug.xcconfig"; path = "Target Support Files/Pods-hermes/Pods-hermes.debug.xcconfig"; sourceTree = "<group>"; };
+		D0235B9C45D76388C99A36BB /* Pods_hermes_hermesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hermes_hermesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		434FE565272902E600C747B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9144154D817BB6F97EB5DAB3 /* Pods_hermes.framework in Frameworks */,
+				43A970C3274B10380058451A /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FE57B272902E800C747B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B8B455B457EA855EFF3007 /* Pods_hermesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FE585272902E800C747B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E29B7F74D706E165009558 /* Pods_hermes_hermesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434FE55F272902E600C747B9 = {
+			isa = PBXGroup;
+			children = (
+				434FE56A272902E600C747B9 /* hermes */,
+				434FE581272902E800C747B9 /* hermesTests */,
+				434FE58B272902E800C747B9 /* hermesUITests */,
+				434FE569272902E600C747B9 /* Products */,
+				527E86BE993DAAA307C525CC /* Pods */,
+				C2ADD92CC2BADAD470E6D088 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		434FE569272902E600C747B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				434FE568272902E600C747B9 /* hermes.app */,
+				434FE57E272902E800C747B9 /* hermesTests.xctest */,
+				434FE588272902E800C747B9 /* hermesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		434FE56A272902E600C747B9 /* hermes */ = {
+			isa = PBXGroup;
+			children = (
+				43A970C6274B3B3B0058451A /* hermes-removebg-preview.png */,
+				43A970C1274B10380058451A /* hermes.entitlements */,
+				434FE56B272902E600C747B9 /* AppDelegate.swift */,
+				434FE56D272902E600C747B9 /* SceneDelegate.swift */,
+				434FE571272902E600C747B9 /* Main.storyboard */,
+				438C22F32747487B0000086A /* logoutViewController.swift */,
+				43B19F962745F1BF00B90402 /* signUpViewController.swift */,
+				43B19F942745DB3700B90402 /* loginViewController.swift */,
+				43C700042745BCDF00C47718 /* mainTabBarController.swift */,
+				434FE574272902E800C747B9 /* Assets.xcassets */,
+				434FE576272902E800C747B9 /* LaunchScreen.storyboard */,
+				43B19F922745D82300B90402 /* GoogleService-Info.plist */,
+				434FE579272902E800C747B9 /* Info.plist */,
+				43BB7E9127290AAA005D7AE5 /* mapViewController.swift */,
+				43C7FFFE273CAD5800C47718 /* locationTableViewController.swift */,
+				43C70000273CAD7700C47718 /* detailsViewController.swift */,
+				43FACD042745C3FF00A4BA04 /* savedLocationsTableViewController.swift */,
+			);
+			path = hermes;
+			sourceTree = "<group>";
+		};
+		434FE581272902E800C747B9 /* hermesTests */ = {
+			isa = PBXGroup;
+			children = (
+				434FE582272902E800C747B9 /* hermesTests.swift */,
+			);
+			path = hermesTests;
+			sourceTree = "<group>";
+		};
+		434FE58B272902E800C747B9 /* hermesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				434FE58C272902E800C747B9 /* hermesUITests.swift */,
+				434FE58E272902E800C747B9 /* hermesUITestsLaunchTests.swift */,
+			);
+			path = hermesUITests;
+			sourceTree = "<group>";
+		};
+		527E86BE993DAAA307C525CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80B8F828134BA6D7FDECDE9C /* Pods-hermes.debug.xcconfig */,
+				5E9501A09BE3A6CF9017D0A3 /* Pods-hermes.release.xcconfig */,
+				2BA28C2095EFB1BCDB4E1F73 /* Pods-hermes-hermesUITests.debug.xcconfig */,
+				1BCC5D93BEEAC85CC64E30EF /* Pods-hermes-hermesUITests.release.xcconfig */,
+				24628AB70ACFB56EDFA5DF65 /* Pods-hermesTests.debug.xcconfig */,
+				6ED54E1FE7A6241CB32D247C /* Pods-hermesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2ADD92CC2BADAD470E6D088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A970C2274B10380058451A /* HealthKit.framework */,
+				73E64DC778CE35252E6D7EB7 /* Pods_hermes.framework */,
+				D0235B9C45D76388C99A36BB /* Pods_hermes_hermesUITests.framework */,
+				65C8E9378F41770AE53FDBE3 /* Pods_hermesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		434FE567272902E600C747B9 /* hermes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FE592272902E800C747B9 /* Build configuration list for PBXNativeTarget "hermes" */;
+			buildPhases = (
+				74B24CCFC81BF19045745CD6 /* [CP] Check Pods Manifest.lock */,
+				434FE564272902E600C747B9 /* Sources */,
+				434FE565272902E600C747B9 /* Frameworks */,
+				434FE566272902E600C747B9 /* Resources */,
+				48B9C39775AD9DAD9E58A0FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hermes;
+			productName = hermes;
+			productReference = 434FE568272902E600C747B9 /* hermes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		434FE57D272902E800C747B9 /* hermesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FE595272902E800C747B9 /* Build configuration list for PBXNativeTarget "hermesTests" */;
+			buildPhases = (
+				FDE1916A317F5C27249DA7D2 /* [CP] Check Pods Manifest.lock */,
+				434FE57A272902E800C747B9 /* Sources */,
+				434FE57B272902E800C747B9 /* Frameworks */,
+				434FE57C272902E800C747B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434FE580272902E800C747B9 /* PBXTargetDependency */,
+			);
+			name = hermesTests;
+			productName = hermesTests;
+			productReference = 434FE57E272902E800C747B9 /* hermesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		434FE587272902E800C747B9 /* hermesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FE598272902E800C747B9 /* Build configuration list for PBXNativeTarget "hermesUITests" */;
+			buildPhases = (
+				159F9F4C0F20B35196858A2B /* [CP] Check Pods Manifest.lock */,
+				434FE584272902E800C747B9 /* Sources */,
+				434FE585272902E800C747B9 /* Frameworks */,
+				434FE586272902E800C747B9 /* Resources */,
+				24381031005B48F378DCB92F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434FE58A272902E800C747B9 /* PBXTargetDependency */,
+			);
+			name = hermesUITests;
+			productName = hermesUITests;
+			productReference = 434FE588272902E800C747B9 /* hermesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		434FE560272902E600C747B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					434FE567272902E600C747B9 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					434FE57D272902E800C747B9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 434FE567272902E600C747B9;
+					};
+					434FE587272902E800C747B9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 434FE567272902E600C747B9;
+					};
+				};
+			};
+			buildConfigurationList = 434FE563272902E600C747B9 /* Build configuration list for PBXProject "hermes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 434FE55F272902E600C747B9;
+			productRefGroup = 434FE569272902E600C747B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				434FE567272902E600C747B9 /* hermes */,
+				434FE57D272902E800C747B9 /* hermesTests */,
+				434FE587272902E800C747B9 /* hermesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		434FE566272902E600C747B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FE578272902E800C747B9 /* LaunchScreen.storyboard in Resources */,
+				43B19F932745D82300B90402 /* GoogleService-Info.plist in Resources */,
+				43A970C7274B3B3B0058451A /* hermes-removebg-preview.png in Resources */,
+				434FE575272902E800C747B9 /* Assets.xcassets in Resources */,
+				434FE573272902E600C747B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FE57C272902E800C747B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FE586272902E800C747B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		159F9F4C0F20B35196858A2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hermes-hermesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24381031005B48F378DCB92F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hermes-hermesUITests/Pods-hermes-hermesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hermes-hermesUITests/Pods-hermes-hermesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hermes-hermesUITests/Pods-hermes-hermesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B9C39775AD9DAD9E58A0FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hermes/Pods-hermes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hermes/Pods-hermes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hermes/Pods-hermes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B24CCFC81BF19045745CD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hermes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE1916A317F5C27249DA7D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hermesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		434FE564272902E600C747B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B19F972745F1BF00B90402 /* signUpViewController.swift in Sources */,
+				434FE56C272902E600C747B9 /* AppDelegate.swift in Sources */,
+				438C22F42747487B0000086A /* logoutViewController.swift in Sources */,
+				43C700052745BCDF00C47718 /* mainTabBarController.swift in Sources */,
+				43C70001273CAD7700C47718 /* detailsViewController.swift in Sources */,
+				43C7FFFF273CAD5800C47718 /* locationTableViewController.swift in Sources */,
+				434FE56E272902E600C747B9 /* SceneDelegate.swift in Sources */,
+				43BB7E9227290AAA005D7AE5 /* mapViewController.swift in Sources */,
+				43FACD052745C3FF00A4BA04 /* savedLocationsTableViewController.swift in Sources */,
+				43B19F952745DB3700B90402 /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FE57A272902E800C747B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FE583272902E800C747B9 /* hermesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FE584272902E800C747B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FE58F272902E800C747B9 /* hermesUITestsLaunchTests.swift in Sources */,
+				434FE58D272902E800C747B9 /* hermesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		434FE580272902E800C747B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434FE567272902E600C747B9 /* hermes */;
+			targetProxy = 434FE57F272902E800C747B9 /* PBXContainerItemProxy */;
+		};
+		434FE58A272902E800C747B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434FE567272902E600C747B9 /* hermes */;
+			targetProxy = 434FE589272902E800C747B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		434FE571272902E600C747B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434FE572272902E600C747B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		434FE576272902E800C747B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434FE577272902E800C747B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		434FE590272902E800C747B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		434FE591272902E800C747B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		434FE593272902E800C747B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B8F828134BA6D7FDECDE9C /* Pods-hermes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hermes/hermes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZHNK9H4AL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hermes/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need for healthkit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need for heathkit";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need this to use Hermes";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duke.hermes.ap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		434FE594272902E800C747B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9501A09BE3A6CF9017D0A3 /* Pods-hermes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hermes/hermes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZHNK9H4AL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hermes/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need for healthkit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need for heathkit";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need this to use Hermes";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duke.hermes.ap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		434FE596272902E800C747B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24628AB70ACFB56EDFA5DF65 /* Pods-hermesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duke.hermesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hermes.app/hermes";
+			};
+			name = Debug;
+		};
+		434FE597272902E800C747B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED54E1FE7A6241CB32D247C /* Pods-hermesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duke.hermesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hermes.app/hermes";
+			};
+			name = Release;
+		};
+		434FE599272902E800C747B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA28C2095EFB1BCDB4E1F73 /* Pods-hermes-hermesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duke.hermesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hermes;
+			};
+			name = Debug;
+		};
+		434FE59A272902E800C747B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCC5D93BEEAC85CC64E30EF /* Pods-hermes-hermesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duke.hermesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hermes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		434FE563272902E600C747B9 /* Build configuration list for PBXProject "hermes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FE590272902E800C747B9 /* Debug */,
+				434FE591272902E800C747B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434FE592272902E800C747B9 /* Build configuration list for PBXNativeTarget "hermes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FE593272902E800C747B9 /* Debug */,
+				434FE594272902E800C747B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434FE595272902E800C747B9 /* Build configuration list for PBXNativeTarget "hermesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FE596272902E800C747B9 /* Debug */,
+				434FE597272902E800C747B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434FE598272902E800C747B9 /* Build configuration list for PBXNativeTarget "hermesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FE599272902E800C747B9 /* Debug */,
+				434FE59A272902E800C747B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 434FE560272902E600C747B9 /* Project object */;
+}
